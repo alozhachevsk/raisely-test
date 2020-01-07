@@ -1,0 +1,20 @@
+.input {
+  height: 50px;
+  padding: 0 20px;
+  color: #18242c;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: 'Evolventa', sans-serif;
+  border: 1px solid #375c69;
+
+  &::placeholder {
+    font-family: 'Evolventa', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  &.number {
+    max-width: 200px;
+  }
+}

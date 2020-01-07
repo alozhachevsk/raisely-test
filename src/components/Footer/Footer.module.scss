@@ -1,0 +1,58 @@
+.root {
+  background: #0b0d0d;
+  height: 150px;
+  z-index: -2;
+  position: relative;
+}
+
+.content {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  max-width: 960px;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  bottom: 0;
+  padding: 0 15px 30px;
+  color: #8c8c8c;
+}
+
+.companyName {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 600;
+
+  @media all and (max-width: 640px) {
+    text-align: center;
+  }
+}
+
+.bottomContent {
+  font-size: 11px;
+  letter-spacing: .7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media all and (max-width: 640px) {
+    flex-direction: column;
+  }
+}
+
+.attribution {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+
+  @media all and (max-width: 640px) {
+    margin-top: 10px;
+  }
+}
+
+.raiselyLogo {
+  height: auto;
+  width: 70px;
+  fill: #8c8c8c;
+  margin-left: 7px;
+  margin-bottom: 2px;
+}

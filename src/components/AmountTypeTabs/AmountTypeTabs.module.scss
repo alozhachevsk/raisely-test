@@ -1,0 +1,14 @@
+.amountTabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.amountTabContent {
+  display: flex;
+  justify-content: space-between;
+
+  @media all and (max-width: 640px) {
+    flex-direction: column;
+  }
+}

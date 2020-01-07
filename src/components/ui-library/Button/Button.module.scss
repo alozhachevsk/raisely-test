@@ -1,0 +1,33 @@
+.root {
+  height: 50px;
+  background: #375c69;
+  color: #f0f0f0;
+  transition: 180ms ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  padding: 0 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+
+  &:hover,
+  &:focus {
+    background: darken(#375c69, 10%);
+  }
+
+  &:active {
+    background: darken(#375c69, 20%);
+  }
+
+  &.fullWidth {
+    width: 100%;
+  }
+
+  &.disabled {
+    cursor: default;
+    background: lighten(#375c69, 10%);
+  }
+}
